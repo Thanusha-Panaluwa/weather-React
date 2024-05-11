@@ -8,7 +8,7 @@ function App() {
     alert("The weather in newyork is " + response.data.main.temp + " C");
   }
 
-  let apiKey = "ebc5c2c8091706edf840091e9643782f";
+  let apiKey = " ";
   let apiUrl="https://api.openweathermap.org/data/2.5/weather?q=New York&appid=" + apiKey;
   
   axios.get(apiUrl).then(handleResponse);
